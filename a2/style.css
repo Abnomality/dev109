@@ -52,3 +52,12 @@ img {
     margin-left: 5px;
     margin-top: 10px;
 }
+
+#footer {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; /* Align text to the center of the footer */
+    background-color: white; /* Optional background color to distinguish the footer */
+}
+
