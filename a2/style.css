@@ -1,13 +1,14 @@
 body {
     background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9Uu2E/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+    background-size: cover;
 }
 
 #title {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     padding: 10px;
-    margin: 0px;
+    margin: 0;
     width: 100%;
     background-color: lightyellow;
     text-align: center;
@@ -31,13 +32,9 @@ body {
     margin-right: 10%;
 }
 
-#clear {
-    clear: both;
-}
-
 .white {
     border: 1px solid black;
-    width: 12.5%;
+    width: 12%;
     height: 60px;
     background-color: white;
     float: left;
@@ -45,7 +42,7 @@ body {
 
 .black {
     border: 1px solid black;
-    width: 12.5%;
+    width: 12%;
     height: 60px;
     background-color: #787878;
     float: left;
@@ -54,10 +51,4 @@ body {
 img {
     margin-left: 5px;
     margin-top: 10px;
-}
-
-#footer {
-    border: solid 1px;
-    padding: 10px;
-    margin: 10px;
 }
