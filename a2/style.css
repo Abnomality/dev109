@@ -1,5 +1,5 @@
 body {
-    background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+    background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9Uu2E/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
 
 #title {
@@ -19,16 +19,14 @@ body {
 }
 
 #container {
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .row {
     position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 #clear {
@@ -37,28 +35,28 @@ body {
 
 .white {
     border: 1px solid black;
-    width: 10%;
-    height: 60px;
+    width: 12.5%;
+    height: 12.5vw; /* Relative height to maintain square shape */
     background-color: white;
     float: left;
 }
 
 .black {
     border: 1px solid black;
-    width: 10%;
-    height: 60px;
+    width: 12.5%;
+    height: 12.5vw; /* Relative height to maintain square shape */
     background-color: #787878;
     float: left;
 }
 
 img {
-    margin-left: 5px;
-    margin-top: 10px;
+    margin: 5px;
 }
 
 #footer {
+    text-align: center;
     border: solid 1px;
     padding: 10px;
-    margin: 10px;
+    width: 50%;
+    margin: 20px auto;
 }
-
