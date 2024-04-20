@@ -35,16 +35,16 @@ body {
 
 .white {
     border: 1px solid black;
-    width: 12.5%;
-    height: 12.5vw; /* Relative height to maintain square shape */
+    width: 12.5vw;
+    height: 12.5vw;
     background-color: white;
     float: left;
 }
 
 .black {
     border: 1px solid black;
-    width: 12.5%;
-    height: 12.5vw; /* Relative height to maintain square shape */
+    width: 12.5vw;
+    height: 12.5vw;
     background-color: #787878;
     float: left;
 }
