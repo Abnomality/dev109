@@ -1,0 +1,54 @@
+body {
+    background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9Uu2E/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+    background-size: cover;
+}
+
+#title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center;
+    z-index: 10;
+    font-family: 'JustLettersMedium';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+}
+
+#container {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.row {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.white {
+    border: 1px solid black;
+    width: 12%;
+    height: 60px;
+    background-color: white;
+    float: left;
+}
+
+.black {
+    border: 1px solid black;
+    width: 12%;
+    height: 60px;
+    background-color: #787878;
+    float: left;
+}
+
+img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
