@@ -54,10 +54,10 @@ img {
 }
 
 #footer {
-    border: 1px solid black;
+    text-align: center;
+    border: solid 1px;
     padding: 10px;
-    margin: 10px;
-    text-align: center; /* Align text to the center of the footer */
-    background-color: white; /* Optional background color to distinguish the footer */
+    width: 50%;
+    margin: 0 auto;
 }
 
