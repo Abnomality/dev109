@@ -6,7 +6,7 @@
 	h1 {
         text-align:center;
         color:blue;
-        font-family:'DancingScriptRegular‘;
+ 	font-family: "Poppins";
         font-size:400%;
       }
 	h2 {
@@ -14,8 +14,8 @@
 	line-height: 2em;
       }
 	p {
-        font-family: 'DancingScriptRegular';
-        font-weight: normal;
+	font-family: "Poppins";
+	font-weight: normal;
         font-style: normal;
         font-size:200%;
       }
