@@ -19,6 +19,7 @@ body {
 }
 
 #container {
+    position:center;
     margin-top: 12%;
     margin-left: 10%;
     margin-right: 10%;
