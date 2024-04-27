@@ -1,22 +1,21 @@
 body {
-    background-image: url("https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg?t=st=1713653018~exp=1713656618~hmac=6969221847cbe6bd409ca00f4796ea71974e8b839cd53bd421cd86fe1a0f7114&w=2000");
+    background-image: url("https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30506.jpg?w=1800&t=st=1714196148~exp=1714196748~hmac=2dec2759b9e7794cba847fad0f03e6cf44095002f0100f17eaee79e5ee2d488e");
     background-size: cover;
 }
 
 #title {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-    background-color: lightyellow;
-    text-align: center;
-    z-index: 10;
-    font-family: 'JustLettersMedium';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 36px;
+ position:fixed;
+ top:0px;
+ left:0px; 
+ padding:10px;
+ margin:0px;
+ width:100%;
+ background-color:lightyellow;
+ text-align:center; 
+ z-index:10;
+ font-family: "Share Tech", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 #container {
@@ -58,6 +57,6 @@ img {
     border: solid 1px;
     padding: 10px;
     width: 50%;
-    margin: 0 auto;
+    margin: auto;
     background-color: white;
 }
