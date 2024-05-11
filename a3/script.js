@@ -6,8 +6,7 @@ function createRhombus() {
 
   upLeft(rHeight, colorEven, colorOdd, symbol);
   upRight(rHeight, colorEven, colorOdd, symbol);
-  downLeft(rHeight, colorEven, colorOdd, symbol);
-  downRight(rHeight, colorEven, colorOdd, symbol);
+
 }
 
 function upLeft(rHeight, colorEven, colorOdd, symbol) {
@@ -34,26 +33,4 @@ function upRight(rHeight, colorEven, colorOdd, symbol) {
   document.getElementById("upRight").innerHTML = rLine;
 }
 
-function downLeft(rHeight, colorEven, colorOdd, symbol) {
-  var rLine = "";
-  for (var i = rHeight; i >= 1; i--) {
-    rLine += "<p>";
-    for (var j = rHeight; j > i; j--) {
-      rLine += "<span style='color:" + (j % 2 ? colorEven : colorOdd) + ";'>" + symbol + "</span>";
-    }
-    rLine += "</p>";
-  }
-  document.getElementById("downLeft").innerHTML = rLine;
-}
 
-function downRight(rHeight, colorEven, colorOdd, symbol) {
-  var rLine = "";
-  for (var i = rHeight; i >= 1; i--) {
-    rLine += "<p>";
-    for (var j = 1; j <= rHeight - i; j++) {
-      rLine += "<span style='color:" + (j % 2 ? colorEven : colorOdd) + ";'>" + symbol + "</span>";
-    }
-    rLine += "</p>";
-  }
-  document.getElementById("downRight").innerHTML = rLine;
-}
