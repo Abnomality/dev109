@@ -14,13 +14,14 @@ function upLeft(rHeight, colorEven, colorOdd, symbol) {
   var rLine = "";
   for (var i = 1; i <= rHeight; i++) {
     rLine += "<p>";
-    for (var j = 1; j <= rHeight - i; j++) {
+    for (var j = 1; j <= i; j++) {
       rLine += "<span style='color:" + (j % 2 ? colorEven : colorOdd) + ";'>" + symbol + "</span>";
     }
     rLine += "</p>";
   }
   document.getElementById("upLeft").innerHTML = rLine;
 }
+
 
 function upRight(rHeight, colorEven, colorOdd, symbol) {
   var rLine = "";
