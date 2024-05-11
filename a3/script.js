@@ -73,4 +73,3 @@ function downLeft(rHeight, colorEven, colorOdd, symbol) {
   }
   document.getElementById("downLeft").innerHTML = rLine;
 }
-
