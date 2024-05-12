@@ -4,6 +4,6 @@ body  {
   color: black;
 }
 img {
-max-width: 300px;
-  max-height: 100px;
+  width: 30%;
+  height: auto;
 }
