@@ -8,9 +8,8 @@ img {
   height: auto;
 }
 #left, #right{
-    width:300px;
+    width:200px;
     height:auto;
-    border:1px solid red;
     margin-right:10px;
     float:left;
 }
