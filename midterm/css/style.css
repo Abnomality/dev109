@@ -7,6 +7,10 @@ img {
   width: 30%;
   height: auto;
 }
-#right {
-float: right;
+#left, #right{
+    width:auto;
+    height:auto;
+    border:1px solid red;
+    margin-right:10px;
+    float:left;
 }
