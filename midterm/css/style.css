@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
-body  {
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Major+Mono+Display&display=swap');
+body {
   background-color:  #33ffff;
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
-a1 {
+
+p {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
   font-family: "Jacquard 12", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-#left, #right{
+
+#left, #right {
     width:auto;
     height:auto;
     margin-right:10px;
     float:left;
 }
+
 #nav {
     width:auto;
     height:auto;
