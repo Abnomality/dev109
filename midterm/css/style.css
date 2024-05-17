@@ -12,7 +12,7 @@ p {
   font-style: normal;
 }
 
-h3 {
+h2 {
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
@@ -36,4 +36,5 @@ h1 {
     height:auto;
     margin-right:10px;
     float:left;
+    list-style-type: none;
 }
