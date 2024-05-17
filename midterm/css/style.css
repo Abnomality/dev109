@@ -4,7 +4,7 @@ body  {
   color: black;
 }
 #left, #right{
-    width:500px;
+    width:auto;
     height:auto;
     margin-right:10px;
     float:left;
