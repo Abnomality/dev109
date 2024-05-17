@@ -3,10 +3,6 @@ body  {
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
-img {
-  width: 30%;
-  height: auto;
-}
 #left, #right{
     width:500px;
     height:auto;
