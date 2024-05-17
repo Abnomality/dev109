@@ -7,11 +7,6 @@ body {
   color: black;
 }
 
-a {
- attribute: target="_blank";
-}
-
-
 p {
   font-family: "Merriweather", serif;
   font-weight: 400;
