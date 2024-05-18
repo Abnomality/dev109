@@ -24,6 +24,12 @@ h1 {
   font-style: normal;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 #left, #right {
     width:auto;
     height:auto;
@@ -36,5 +42,4 @@ h1 {
     height:auto;
     margin-right:10px;
     float:left;
-    list-style-type: none;
 }
