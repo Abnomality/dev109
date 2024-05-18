@@ -1,23 +1,28 @@
 	body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+        font-style: normal;
 	color: #665544;
        	padding: 0 15% 0 15%; 
       }
 	h1 {
-        text-align:center;
-        color:blue;
- 	font-family: "Poppins";
-        font-size:400%;
+        text-align: center;
+        color: blue;
+	font-family: "Poppins", sans-serif;
+ 	font-weight: 600;
+	font-style: normal;
       }
 	h2 {
 	padding: 12px;
 	line-height: 2em;
+	font-family: "Poppins", sans-serif;
+ 	font-weight: 500;
+	font-style: normal;
       }
 	p {
-	font-family: "Poppins";
-	font-weight: normal;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
         font-style: normal;
-        font-size:200%;
       }
 	i {
         color:darkgreen;
