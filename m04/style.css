@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
+* {
+    color: #665544;
+    text-align: center;
+}
+
 body {
     width: 90%;
     margin: 0 auto;
