@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 * {
     font-family: Arial, Verdana, sans-serif;
     color: #665544;
@@ -13,8 +15,8 @@ body {
 }
 
 #header h1 {
-  font-family: "Share Tech Mono", monospace;
-  font-weight: 700;
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
