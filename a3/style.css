@@ -2,7 +2,5 @@
   display: inline-block;
   vertical-align: top;
   margin: 3px;
-  border: 1px solid;
-  border-color: white;
   white-space: nowrap;
 }
