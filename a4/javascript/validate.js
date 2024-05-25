@@ -1,6 +1,5 @@
 function validateForm() {
     let valid = true;
-    let errorMessages = "";
 
     // Clear previous error messages
     document.getElementById("fname").innerHTML = "";
@@ -54,7 +53,7 @@ function validateForm() {
 
     // Password validation
     let password = document.getElementById("Password").value;
-    if (password.length > 7 || !password.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{1,7}$/)) {
+    if (!password.match(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{1,7}$/)) {
         document.getElementById("passwordError").innerHTML = "Password is required, must be a maximum of 7 characters, and include at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character.";
         valid = false;
     }
@@ -75,4 +74,30 @@ function validateForm() {
 
     // State validation
     let state = document.getElementById("State").value;
-    if (state === "")
+    if (state === "") {
+        document.getElementById("stateError").innerHTML = "State is required.";
+        valid = false;
+    }
+
+    // Country validation
+    let country = document.getElementById("Country").value;
+    if (country === "") {
+        document.getElementById("countryError").innerHTML = "Country is required.";
+        valid = false;
+    }
+
+    // Zip Code validation (if country is USA)
+    let zipcode = document.getElementById("ZipCode").value;
+    if (country === "USA" && !zipcode.match(/^\d{5}$/)) {
+        document.getElementById("zipcodeError").innerHTML = "Zip code is required and must be 5 digits.";
+        valid = false;
+    }
+
+    // Prevent form submission if validation fails
+    if (!valid) {
+        document.getElementById("errorMessages").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
+        return false;
+    }
+
+    return true;
+}
