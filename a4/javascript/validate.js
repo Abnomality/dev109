@@ -46,8 +46,11 @@ function validateForm() {
 
     // Username validation
     let username = document.getElementById("Username").value;
-    if (username.length > 12) {
-        document.getElementById("usernameError").innerHTML = "Username is required and must be a maximum of 12 characters.";
+    if (username.length === 0) { // Check if username has at least 1 character
+        document.getElementById("usernameError").innerHTML = "Username is required.";
+        valid = false;
+    } else if (username.length > 12) { // Check maximum length of 12 characters
+        document.getElementById("usernameError").innerHTML = "Username must be a maximum of 12 characters.";
         valid = false;
     }
 
