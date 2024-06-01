@@ -1,0 +1,9 @@
+body {
+    height: 200px;
+    background: beige;
+}
+
+.dot {
+    border-radius: 50%;
+    position: absolute;
+}
