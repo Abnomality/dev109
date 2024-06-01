@@ -33,10 +33,10 @@ function prevImage() {
 
 function resetInterval() {
     clearInterval(interval);
-    interval = setInterval(nextImage, 3000);
+    interval = setInterval(nextImage, 10000);  // 10000ms = 10s
 }
 
 prevBtn.addEventListener('click', prevImage);
 nextBtn.addEventListener('click', nextImage);
 
-interval = setInterval(nextImage, 3000);
+interval = setInterval(nextImage, 10000);
