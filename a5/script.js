@@ -1,8 +1,8 @@
 const images = [
     { src: 'images/image1.png', description: 'This is my first artifact assignment in dev 109. We learned how to bold, italicize, and space text in HTML.' },
-    { src: 'images/image2.png', description: 'This is a static chessboard we made. It helped show us how to center bojects and images and how IDs work.' },
+    { src: 'images/image2.png', description: 'This is a static chessboard we made. It helped show us how to center objects and images interact with IDs.' },
     { src: 'images/image3.png', description: 'This is a rhombus generator. It was a great exercise on how to implement Javascript with HTML to make a shape generator.' },
-    { src: 'images/image4.png', description: 'This is a project where we had to create a form for a usar to complete. You had to make sure all the fields worked, and to throw the usar an error message if something was wrong.' },
+    { src: 'images/image4.png', description: 'This is a project where we had to create a form for a user to complete. You had to make sure all the fields worked, and to throw the user an error message if something was wrong.' },
     { src: 'images/image5.png', description: 'This is a module assignment where we had to track the curser and whenever the curser clicks it draws a dot.' }
 ];
 
