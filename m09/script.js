@@ -19,10 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         var dot = document.createElement("div");
         dot.className = "dot";
+        dot.style.width = dot.style.height = sizePicker.value + "px";
+        dot.style.background = colorPicker.value;
+
+        // Adjust the dot position to center it at the click location
         dot.style.left = (event.pageX - sizePicker.value / 2) + "px";
         dot.style.top = (event.pageY - sizePicker.value / 2) + "px";
-        dot.style.height = dot.style.width = sizePicker.value + "px";
-        dot.style.background = colorPicker.value;
+
         document.body.appendChild(dot);
     });
 });
