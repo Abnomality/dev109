@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Major+Mono+Display&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-color:  #33ffff;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#left, #right {
+    width:auto;
+    height:auto;
+    margin-right:10px;
+    float:left;
+}
+
+#nav {
+    background-color: #2e86fe;
+    width:auto;
+    height:auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+    float:left;
+}
